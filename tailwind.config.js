@@ -21,6 +21,7 @@ export default {
           DEFAULT: '#195091',  // Color base
           700: '#153e73',      // Tonalidad 700 más oscura
           900: '#102d55',      // Tonalidad 900 aún más oscura
+          1000: '#255290',      // Tonalidad 900 aún más oscura
         },
         gray: {
           DEFAULT: '#D9D9D9',  // Color Base

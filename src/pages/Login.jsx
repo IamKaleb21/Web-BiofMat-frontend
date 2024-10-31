@@ -5,7 +5,7 @@ import LoginPage from '../components/LoginPage'
 function Login() {
   return (
     <>
-    <DocumentHead title="Biofmatic - Login" />
+    <DocumentHead title="BiofMat - Login" />
     <LoginPage />
     </>
   );

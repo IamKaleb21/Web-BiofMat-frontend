@@ -12,7 +12,7 @@ function BookCard({ book }) {
 
   // Función para manejar la navegación al producto
   const handleViewProduct = () => {
-    navigate(`/productos/${book.id}`);
+    navigate(`/product/${book.id}`);
   };
 
   return (

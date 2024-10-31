@@ -68,7 +68,7 @@ function Header() {
 
           <div className='space-x-4'>
             <a
-              href="/contact"
+              href="#Footer"
               className="block px-4 py-2 text-primary hover:text-primary-700 font-semibold md:inline-block"
             >
               Contáctanos

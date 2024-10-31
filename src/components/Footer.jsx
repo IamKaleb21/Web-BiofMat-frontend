@@ -2,7 +2,7 @@ import biofMatLogo from '/biofmat_logo.webp'
 
 function Footer() {
   return (
-    <footer className="mt-8 pb-10 bg-gray-300">
+    <footer id='Footer' className="mt-8 pb-10 bg-gray-300">
       <div className="px-4">
         {/* Título */}
         <div className="bg-primary w-auto h-0.5 my-10"></div>

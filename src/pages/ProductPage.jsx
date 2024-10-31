@@ -6,6 +6,7 @@ import ProductGallery from '../components/ProductGallery';
 import ProductInfo from '../components/ProductInfo';
 import SimilarProducts from '../components/SimilarProducts';
 import TopBar from '../components/TopBar';
+import DocumentHead from '../components/DocumentHead';
 
 function ProductPage() {
     const { id } = useParams();
@@ -41,6 +42,7 @@ function ProductPage() {
 
     return (
         <>
+            <DocumentHead title={`BiofMat - ${placeholderProduct.title}`} />
             <Header />
             <TopBar />
             <div className="mx-auto border-primary border w-11/12">

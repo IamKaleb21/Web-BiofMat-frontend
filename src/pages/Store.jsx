@@ -29,7 +29,7 @@ function Store() {
 
   return (
     <>
-    <DocumentHead title="Biofmatic - Store" />
+    <DocumentHead title="BiofMat - Store" />
     <div>
       <Header />
 
