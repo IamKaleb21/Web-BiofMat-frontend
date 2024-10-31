@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import Header from '../components/Header';
 import LoadingSpinner from '../components/LoadingSpinner';
+import Footer from '../components/Footer';
 
 function BlogPage() {
     const { id } = useParams();
@@ -91,6 +92,7 @@ function BlogPage() {
                     </div>
                 </div>
             </section>
+            <Footer />
         </>
     );
 }
